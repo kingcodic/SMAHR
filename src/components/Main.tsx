@@ -1,4 +1,3 @@
-import React from "react";
 // import cover from "../assets/Manga.jpg"
 import { useNavigate } from "react-router-dom";
 import webtoonsImages from "../data/webtoonsImages";
