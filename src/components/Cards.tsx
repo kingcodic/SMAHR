@@ -26,10 +26,10 @@ const Cards = () => {
           {webtoonsImages.slice(0, 6).map((webtoon, index) => (
             <div
               key={index}
-              className="cursor-pointer"
+              className="cursor-pointer "
               onClick={() => navigate(`/manga/${index}`)} // Navigate on click
             >
-              <div className="relative h-[70vh] border-2 border-white shadow-lg rounded-md overflow-hidden">
+              <div className="relative h-[70vh] border-2 border-white shadow-lg rounded-md hover:scale-105  hover:z-50 transition-all duration-1000">
                 {/* Background image */}
                 <div
                   className="absolute inset-0 bg-cover bg-center"

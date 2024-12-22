@@ -37,7 +37,7 @@ export default function Main() {
             {webtoonsImages.map((webtoon, index) => (
               <div
                 key={index}
-                className="cursor-pointer bg-white p-6 rounded-lg shadow-md"
+                className="cursor-pointer bg-white p-6 rounded-lg shadow-md hover:scale-110 duration-500 transition"
                 onClick={() => navigate(`/manga/${index}`)} // Use navigate here
               >
                 <img

@@ -97,7 +97,9 @@ const Testimonials = () => {
       <section className="px-3 py-5   lg:py-10">
         <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
           <div className="order-2 lg:order-2 flex flex-col p-16 text-right">
-            <p dir="rtl" className="text-4xl font-bold md:text-3xl">منصة سمهر</p>
+            <p dir="rtl" className="text-4xl font-bold md:text-3xl">
+              منصة سمهر
+            </p>
             <p dir="rtl" className="mt-2 text-sm md:text-lg text-justify">
               هي منصة مبتكرة تتيح للشباب العربي فرصة فريدة لنشر إبداعاتهم في
               مجال المانجا (القصص المصورة)، لتكون نافذتهم إلى العالم. نسعى
@@ -119,21 +121,23 @@ const Testimonials = () => {
       <div dir="rtl" className="container mx-auto text-right pt-24">
         <div className="testimonial-container bg-[#148da1] flex-wrap flex items-center p-8">
           {/* Text Section */}
-          <div className="w-2/3 testimonial-copy">
-            <div className="testimonial-header px-8 pt-8  flex-row items-center justify-between">
-              <h1 className="font-bold text-8xl title pb-8  ">ماذا نريد</h1>
-              <h2 className="text-3xl font-bold text-white">
+          <div className="w-full md:w-2/3 testimonial-copy mb-8 md:mb-0">
+            <div className="testimonial-header px-8 pt-8 flex-row items-center justify-between">
+              <h1 className="font-bold text-6xl md:text-8xl title pb-8">
+                ماذا نريد
+              </h1>
+              <h2 className="text-xl md:text-3xl font-bold text-white">
                 إطلاق العنان للإبداع الرسم والكتابة والخيال بلا حدود
               </h2>
               <div className="space-x-4"></div>
             </div>
             <Slider
               {...settings}
-              className="testimonial-quote-slider text-white "
+              className="testimonial-quote-slider text-white"
             >
               {/* Slide 1 */}
               <div className="testimonial-quote p-8 w-full focus:outline-none">
-                <p className="quote pb-10 text-xl">
+                <p className="quote pb-10 text-lg md:text-xl">
                   الرسم هو اللغة التي تعبر بها الروح عندما تعجز الكلمات عن وصف
                   الأحاسيس. إنه المساحة التي يمكنك فيها أن تُطلِق العنان
                   لأفكارك، وترسم ألوان حريتك كما تراها أنت. خطوط بسيطة أو لوحات
@@ -143,7 +147,7 @@ const Testimonials = () => {
               </div>
               {/* Slide 2 */}
               <div className="testimonial-quote p-8 w-full focus:outline-none">
-                <p className="quote pb-10 text-xl">
+                <p className="quote pb-10 text-lg md:text-xl">
                   الكتابة ليست مجرد كلمات تُنسج على الورق، بل هي انعكاس لأعماق
                   الروح ورحلة لاستكشاف العالم الداخلي والخارجي. التفاني في تطوير
                   موهبتك هو المفتاح لصنع شيء يُلهم الآخرين. لا تخف من التحديات
@@ -153,7 +157,7 @@ const Testimonials = () => {
               </div>
               {/* Slide 3 */}
               <div className="testimonial-quote p-8 w-full focus:outline-none">
-                <p className="quote pb-10 text-xl">
+                <p className="quote pb-10 text-lg md:text-xl">
                   الخيال هو الشرارة التي تُضيء طريق الإبداع. إنه العالم الذي
                   تخلقه بيديك وتنسج فيه قصصك وأفكارك، دون قيود الواقع. كل فكرة
                   مجنونة أو حلم غريب هو بداية مغامرة جديدة. اجعل من خيالك نافذة
@@ -165,7 +169,7 @@ const Testimonials = () => {
           </div>
 
           {/* Image Section */}
-          <div className="w-1/3 testimonial-image ">
+          <div className="w-full md:w-1/3 testimonial-image">
             <Slider {...settings} className="testimonial-image-slider h-full">
               <div className="testimonial-img w-full h-full">
                 <img

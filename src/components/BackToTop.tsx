@@ -5,7 +5,8 @@ const BackToTop = () => {
 
   // Scroll handler to toggle visibility
   const handleScroll = () => {
-    if (window.scrollY > 200) {
+    console.log('Scroll Y:', window.scrollY); // Log scroll position
+    if (window.scrollY > 50) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
@@ -30,7 +31,7 @@ const BackToTop = () => {
     <button
       type="button"
       onClick={scrollToTop}
-      className={`fixed right-6 bottom-12 w-12 h-12 overflow-hidden bg-white text-transparent invisible rounded-full shadow transition-all duration-300 ease-in-out cursor-pointer z-[128718268] ${
+      className={`fixed right-6 bottom-12 w-12 h-12 bg-blue-500 border-2 border-red-500 text-transparent invisible rounded-full shadow transition-all duration-300 ease-in-out cursor-pointer z-50 ${
         isVisible ? 'visible text-green-600 shadow-lg' : 'invisible'
       }`}
     >
@@ -44,4 +45,3 @@ const BackToTop = () => {
 };
 
 export default BackToTop;
-        

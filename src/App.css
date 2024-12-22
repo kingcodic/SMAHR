@@ -32,3 +32,33 @@ h1,h2,h3{
   .video-content {
     z-index: 2;
   }
+
+
+
+
+
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    transition: 1s;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;   
+    transition: 1s; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #148da1;
+     transition: 1s;
+     transition-property: background;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8a08a0;
+     transition: 1s;
+     transition-property: background;
+  }
