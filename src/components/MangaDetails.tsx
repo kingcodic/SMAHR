@@ -18,13 +18,13 @@ const MangaDetails: React.FC = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <div className="flex bg-slate-200 p-16 flex-col md:flex-row items-start md:items-center gap-6 justify-around">
+      <div className="flex bg-slate-200 p-16 flex-col md:flex-row items-start md:items-center gap-6 justify-around ">
         <img src={manga.image} alt={manga.title} className="w-[30vw] rounded-lg shadow-md" />
-        <div>
+        <div className='text-center'>
           <h1 className="text-6xl my-5 text-[#148da1] font-bold">{manga.title}</h1>
           <p className="text-white bg-[#148da1] text-xl p-3 uppercase mb-4">{manga.author}</p>
           <p>{manga.description}</p>
-          <h3 className="mt-6 text-xl uppercase font-bold">Chapters</h3>
+          <h3 className="mt-6 text-3xl uppercase font-bold">الفصل</h3>
           <ul className="mt-4">
             {manga.chapters.map((chapter, index) => (
               <li

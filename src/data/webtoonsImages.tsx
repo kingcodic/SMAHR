@@ -295,7 +295,7 @@ const  webtoonsImages: Manga[] = [
             },
 
         ],
-        description: 'A fantasy epic where secrets unravel at the edge of the veil.',
+        description: 'حكاية احد ضواحي امدرمان',
         genre: ['Fantasy', 'Adventure'],
     },
     {
