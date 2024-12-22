@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <>
-<div className="max-w-screen-md mx-auto p-5">
+<div dir="rtl" className="max-w-screen-md mx-auto p-5">
   <div className="text-center mb-16">
     <p className="mt-4 text-sm leading-7 text-gray-500 font-regular uppercase p-4">
         تواصل معنا

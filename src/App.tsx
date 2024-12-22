@@ -10,6 +10,7 @@ import MangaViewer from './components/MangaViewer';
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Contact from './components/Contact';
 import About from './components/About';
+import BackToTop from './components/BackToTop';
 
 const AppContent = () => {
  
@@ -20,7 +21,7 @@ const AppContent = () => {
     <div className="App">
       {/* Render Nav and Footer for all routes */}
       <Nav />
-
+      <BackToTop/>
       <Routes>
         {/* Main route */}
         <Route path="/" element={<Main />} />
@@ -33,7 +34,7 @@ const AppContent = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
       </Routes>
-
+      
       {/* Render Footer for all routes */}
       <Footer />
     </div>

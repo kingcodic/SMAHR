@@ -7,7 +7,7 @@ export default function Hero() {
 
     
     <section className="px-3 py-5 bg-neutral-100 lg:py-10">
-  <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+  <div dir="rtl" className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
     <div className="order-2 lg:order-2 flex flex-col text-right ">
       <h1 className="text-4xl font-bold md:text-9xl py-8 text-[#148da1]">سمهر</h1>
       <p className="text-4xl font-bold md:text-3xl">بوابتك لعالم المناجا (القصص المصورة)</p>
