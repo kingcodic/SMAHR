@@ -63,10 +63,10 @@ const Testimonials = () => {
       <section className="px-3 py-5   lg:py-10">
 
         <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-          <div className="order-2 lg:order-2 flex flex-col p-8">
-            <p className="text-4xl font-bold md:text-3xl">SMAHAR</p>
+          <div className="order-2 lg:order-2 flex flex-col p-8 text-right">
+            <p className="text-4xl font-bold md:text-3xl">منصة سمهر</p>
             <p className="mt-2 text-sm md:text-lg text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, itaque. Quia rerum quibusdam repudiandae, dolores illo, laudantium nostrum numquam inventore autem, eveniet excepturi commodi. Esse velit fuga rem quae vero?
+             هي منصة لشباب العربي لنشر ابداعاتهم من المانجا (القصص المصورة ) ليكتشفها العالم
             </p>
           </div>
           <div className="order-1 lg:order-1">
