@@ -85,43 +85,42 @@ import page_25 from "../manga/Kanoon - Legacy ch 2 english/p1_015 copy.jpg"
 
 
 
-import manga_3 from "../manga/hero/ch1/COVER(1).jpg"
+import manga_3 from "../manga/محمد وليد/الجلاد/1 copy.jpg"
 
     
 
 
-// import Manga1 from "../manga/hero/ch1/#1.jpg"
-// import Manga2 from "../manga/hero/ch1/#2.jpg"
-// import Manga3 from "../manga/hero/ch1/#3.jpg"
-// import Manga4 from "../manga/hero/ch1/#4.jpg"
-// import Manga5 from "../manga/hero/ch1/#5.jpg"
-// import Manga6 from "../manga/hero/ch1/#6.jpg"
-// import Manga7 from "../manga/hero/ch1/#7.jpg"
-// import Manga8 from "../manga/hero/ch1/#8.jpg"
-// import Manga9 from "../manga/hero/ch1/#9.jpg"
-// import Manga10 from "../manga/hero/ch1/#10.jpg"
-// import Manga11 from "../manga/hero/ch1/#11.jpg"
-// import Manga12 from "../manga/hero/ch1/#12.jpg"
-// import Manga13 from "../manga/hero/ch1/#13.jpg"
-// import Manga14 from "../manga/hero/ch1/#14.jpg"
-// import Manga15 from "../manga/hero/ch1/#15.jpg"
-// import Manga16 from "../manga/hero/ch1/#16.jpg"
-// import Manga17 from "../manga/hero/ch1/#17.jpg"
-// import Manga18 from "../manga/hero/ch1/#18.jpg"
-// import Manga19 from "../manga/hero/ch1/#19.jpg"
-// import Manga20 from "../manga/hero/ch1/#20.jpg"
-// import Manga21 from "../manga/hero/ch1/#21.jpg"
-// import Manga22 from "../manga/hero/ch1/#22.jpg"
-// import Manga23 from "../manga/hero/ch1/#23.jpg"
-// import Manga24 from "../manga/hero/ch1/#24.jpg"
-// import Manga25 from "../manga/hero/ch1/#25.jpg"
-// import Manga26 from "../manga/hero/ch1/#26.jpg"
-// import Manga27 from "../manga/hero/ch1/#27.jpg"
-// import Manga28 from "../manga/hero/ch1/#28.jpg"
-// import Manga29 from "../manga/hero/ch1/#29.jpg"
-// import Manga30 from "../manga/hero/ch1/#30.jpg"
-// import Manga31 from "../manga/hero/ch1/#31.jpg"
-// import Manga32 from "../manga/hero/ch1/#32.jpg"
+import Manga1 from "../manga/محمد وليد/الجلاد/2 copy.jpg"
+import Manga2 from "../manga/محمد وليد/الجلاد/3.jpg"
+import Manga3 from "../manga/محمد وليد/الجلاد/4 copy.jpg"
+import Manga4 from "../manga/محمد وليد/الجلاد/5 copy.jpg"
+import Manga5 from "../manga/محمد وليد/الجلاد/6 copy.jpg"
+import Manga6 from "../manga/محمد وليد/الجلاد/7 copy.jpg"
+import Manga7 from "../manga/محمد وليد/الجلاد/8 copy.jpg"
+import Manga8 from "../manga/محمد وليد/الجلاد/9 copy.jpg"
+import Manga9 from "../manga/محمد وليد/الجلاد/10 copy.jpg"
+import Manga10 from "../manga/محمد وليد/الجلاد/11 copy.jpg"
+import Manga11 from "../manga/محمد وليد/الجلاد/12 copy.jpg"
+import Manga12 from "../manga/محمد وليد/الجلاد/13 copy.jpg"
+import Manga13 from "../manga/محمد وليد/الجلاد/14 copy.jpg"
+import Manga14 from "../manga/محمد وليد/الجلاد/15 copy.jpg"
+import Manga15 from "../manga/محمد وليد/الجلاد/16 copy.jpg"
+import Manga16 from "../manga/محمد وليد/الجلاد/17 copy.jpg"
+import Manga17 from "../manga/محمد وليد/الجلاد/18 copy.jpg"
+import Manga18 from "../manga/محمد وليد/الجلاد/19 copy.jpg"
+import Manga19 from "../manga/محمد وليد/الجلاد/20 copy.jpg"
+import Manga20 from "../manga/محمد وليد/الجلاد/21 copy.jpg"
+import Manga21 from "../manga/محمد وليد/الجلاد/22 copy.jpg"
+import Manga22 from "../manga/محمد وليد/الجلاد/23 copy.jpg"
+import Manga23 from "../manga/محمد وليد/الجلاد/24 copy.jpg"
+import Manga24 from "../manga/محمد وليد/الجلاد/25 copy.jpg"
+import Manga25 from "../manga/محمد وليد/الجلاد/26 copy.jpg"
+import Manga26 from "../manga/محمد وليد/الجلاد/27 copy.jpg"
+import Manga27 from "../manga/محمد وليد/الجلاد/28 copy.jpg"
+import Manga28 from "../manga/محمد وليد/الجلاد/29 copy.jpg"
+import Manga29 from "../manga/محمد وليد/الجلاد/30 copy.jpg"
+import Manga30 from "../manga/محمد وليد/الجلاد/31 copy.jpg"
+
 
 
 
@@ -254,50 +253,47 @@ const  webtoonsImages: Manga[] = [
     },
     {
         id:3,
-        title: "Veil's Edge",
-        author: 'LazyFawnLexi',
+        title: "الجلاد",
+        author: 'محمد وليد',
         image: `${manga_3}`,
         chapters: [
             {
                 chapterNumber: 1,
-                title: 'The Veil Shatters',
+                title: 'امدرمان',
                 pages: [
-                    // `${Manga1}`,
-                    // `${Manga2}`,
-                    // `${Manga3}`,
-                    // `${Manga4}`,
-                    // `${Manga5}`,
-                    // `${Manga6}`,
-                    // `${Manga7}`,
-                    // `${Manga8}`,
-                    // `${Manga9}`,
-                    // `${Manga10}`,
-                    // `${Manga11}`,
-                    // `${Manga12}`,
-                    // `${Manga13}`,
-                    // `${Manga14}`,
-                    // `${Manga15}`,
-                    // `${Manga16}`,
-                    // `${Manga17}`,
-                    // `${Manga18}`,
-                    // `${Manga19}`,
-                    // `${Manga20}`,
-                    // `${Manga21}`,
-                    // `${Manga22}`,
-                    // `${Manga23}`,
-                    // `${Manga24}`,
-                    // `${Manga25}`,
+                    `${Manga1}`,
+                    `${Manga2}`,
+                    `${Manga3}`,
+                    `${Manga4}`,
+                    `${Manga5}`,
+                    `${Manga6}`,
+                    `${Manga7}`,
+                    `${Manga8}`,
+                    `${Manga9}`,
+                    `${Manga10}`,
+                    `${Manga11}`,
+                    `${Manga12}`,
+                    `${Manga13}`,
+                    `${Manga14}`,
+                    `${Manga15}`,
+                    `${Manga16}`,
+                    `${Manga17}`,
+                    `${Manga18}`,
+                    `${Manga19}`,
+                    `${Manga20}`,
+                    `${Manga21}`,
+                    `${Manga22}`,
+                    `${Manga23}`,
+                    `${Manga24}`,
+                    `${Manga25}`,
+                    `${Manga26}`,
+                    `${Manga27}`,
+                    `${Manga28}`,
+                    `${Manga29}`,
+                    `${Manga30}`,
                 ],
             },
-            {
-                chapterNumber: 2,
-                title: 'Edge of Darkness',
-                pages: [
-                    "https://example.com/manga3_ch2_pg1.jpg",
-                    "https://example.com/manga3_ch2_pg2.jpg",
-                    "https://example.com/manga3_ch2_pg3.jpg",
-                ],
-            },
+
         ],
         description: 'A fantasy epic where secrets unravel at the edge of the veil.',
         genre: ['Fantasy', 'Adventure'],
