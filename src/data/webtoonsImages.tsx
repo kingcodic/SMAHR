@@ -1,29 +1,29 @@
-import manga_1 from "../manga/Kanoon - 2B English Translation/0 cover.jpg"
-import page1 from "../manga/Kanoon - 2B English Translation/1 copy.jpg"
-import page2 from "../manga/Kanoon - 2B English Translation/2 copy.jpg"
-import page3 from "../manga/Kanoon - 2B English Translation/3 copy.jpg"
-import page4 from "../manga/Kanoon - 2B English Translation/4 copy.jpg"
-import page5 from "../manga/Kanoon - 2B English Translation/5 copy.jpg"
-import page6 from "../manga/Kanoon - 2B English Translation/6 copy.jpg"
-import page7 from "../manga/Kanoon - 2B English Translation/7 copy.jpg"
-import page8 from "../manga/Kanoon - 2B English Translation/8 copy.jpg"
-import page9 from "../manga/Kanoon - 2B English Translation/9 copy.jpg"
-import page10 from "../manga/Kanoon - 2B English Translation/10 copy.jpg"
-import page11 from "../manga/Kanoon - 2B English Translation/11 copy.jpg"
-import page12 from "../manga/Kanoon - 2B English Translation/12 copy.jpg"
-import page13 from "../manga/Kanoon - 2B English Translation/13 copy.jpg"
-import page14 from "../manga/Kanoon - 2B English Translation/14 copy.jpg"
-import page15 from "../manga/Kanoon - 2B English Translation/15 copy.jpg"
-import page16 from "../manga/Kanoon - 2B English Translation/16 copy.jpg"
-import page17 from "../manga/Kanoon - 2B English Translation/17 copy.jpg"
-import page18 from "../manga/Kanoon - 2B English Translation/18 copy.jpg"
-import page19 from "../manga/Kanoon - 2B English Translation/19 copy.jpg"
-import page20 from "../manga/Kanoon - 2B English Translation/20 copy.jpg"
-import page21 from "../manga/Kanoon - 2B English Translation/21 copy.jpg"
-import page22 from "../manga/Kanoon - 2B English Translation/22 copy.jpg"
-import page23 from "../manga/Kanoon - 2B English Translation/23 copy.jpg"
-import page24 from "../manga/Kanoon - 2B English Translation/24 copy.jpg"
-import page25 from "../manga/Kanoon - 2B English Translation/25 copy.jpg"
+import manga_1 from "../manga/Kanoon - 2B English Translation/0.jpg"
+import page1 from "../manga/Kanoon - 2B English Translation/1.jpg"
+import page2 from "../manga/Kanoon - 2B English Translation/2.jpg"
+import page3 from "../manga/Kanoon - 2B English Translation/3.jpg"
+import page4 from "../manga/Kanoon - 2B English Translation/4.jpg"
+import page5 from "../manga/Kanoon - 2B English Translation/5.jpg"
+import page6 from "../manga/Kanoon - 2B English Translation/6.jpg"
+import page7 from "../manga/Kanoon - 2B English Translation/7.jpg"
+import page8 from "../manga/Kanoon - 2B English Translation/8.jpg"
+import page9 from "../manga/Kanoon - 2B English Translation/9.jpg"
+import page10 from "../manga/Kanoon - 2B English Translation/10.jpg"
+import page11 from "../manga/Kanoon - 2B English Translation/11.jpg"
+import page12 from "../manga/Kanoon - 2B English Translation/12.jpg"
+import page13 from "../manga/Kanoon - 2B English Translation/13.jpg"
+import page14 from "../manga/Kanoon - 2B English Translation/14.jpg"
+import page15 from "../manga/Kanoon - 2B English Translation/15.jpg"
+import page16 from "../manga/Kanoon - 2B English Translation/16.jpg"
+import page17 from "../manga/Kanoon - 2B English Translation/17.jpg"
+import page18 from "../manga/Kanoon - 2B English Translation/18.jpg"
+import page19 from "../manga/Kanoon - 2B English Translation/19.jpg"
+import page20 from "../manga/Kanoon - 2B English Translation/20.jpg"
+import page21 from "../manga/Kanoon - 2B English Translation/21.jpg"
+import page22 from "../manga/Kanoon - 2B English Translation/22.jpg"
+import page23 from "../manga/Kanoon - 2B English Translation/23.jpg"
+import page24 from "../manga/Kanoon - 2B English Translation/24.jpg"
+import page25 from "../manga/Kanoon - 2B English Translation/25.jpg"
 
 
 
@@ -144,13 +144,13 @@ import { Manga } from '../types';
 const  webtoonsImages: Manga[] = [
     {
         id:1,
-        title: 'Lily of the Valley',
+        title: 'زنبقة الوادي',
         author: '2B',
         image: `${manga_1}`,
         chapters: [
             {
                 chapterNumber: 1,
-                title: 'A New Beginning',
+                title: 'الفصل الاول',
                 pages: [
                     `${page1}`,
                     `${page2}`,
@@ -179,26 +179,9 @@ const  webtoonsImages: Manga[] = [
                     `${page25}`,
                 ],
             },
-            {
-                chapterNumber: 2,
-                title: 'Rising Tides',
-                pages: [
-                    `${manga_4}`,
-                    `${manga_5}`,
-                    `${manga_6}`,
-                    `${manga_4}`,
-                    `${manga_5}`,
-                    `${manga_6}`,
-                    `${manga_4}`,
-                    `${manga_5}`,
-                    `${manga_6}`,
-                    `${manga_4}`,
-                    `${manga_5}`,
-                    `${manga_6}`,
-                ],
-            },
+
         ],
-        description: 'A gripping tale of resilience and adventure in a dystopian world.',
+        description: 'زهرى تحمل معاني عدة',
         genre: ['Action', 'Drama'],
     },
     {
