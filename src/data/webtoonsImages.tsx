@@ -131,9 +131,96 @@ import Manga30 from "../manga/محمد وليد/الجلاد/31 copy.jpg"
 
 
 
-import manga_4 from "../assets/l 2.png"
-import manga_5 from "../assets/l 3.png"
-import manga_6 from "../assets/l 4.png"
+import manga_4 from "../manga/ملاذ عبدالله/1.jpg"
+
+
+import Mangad1 from "../manga/ملاذ عبدالله/2.jpg"
+import Mangad2 from "../manga/ملاذ عبدالله/3.jpg"
+import Mangad3 from "../manga/ملاذ عبدالله/4.jpg"
+import Mangad4 from "../manga/ملاذ عبدالله/5.jpg"
+import Mangad5 from "../manga/ملاذ عبدالله/6.jpg"
+import Mangad6 from "../manga/ملاذ عبدالله/7.jpg"
+import Mangad7 from "../manga/ملاذ عبدالله/8.jpg"
+import Mangad8 from "../manga/ملاذ عبدالله/9.jpg"
+import Mangad9 from "../manga/ملاذ عبدالله/10.jpg"
+import Mangad10 from "../manga/ملاذ عبدالله/11.jpg"
+import Mangad11 from "../manga/ملاذ عبدالله/12.jpg"
+
+
+
+
+
+
+import manga_5 from "../manga/يوسف الامين/IKYCD/p01.jpg"
+import Manga_1 from "../manga/يوسف الامين/IKYCD/p02.jpg"
+import Manga_2 from "../manga/يوسف الامين/IKYCD/p03.jpg"
+import Manga_3 from "../manga/يوسف الامين/IKYCD/p04.jpg"
+import Manga_4 from "../manga/يوسف الامين/IKYCD/p05.jpg"
+import Manga_5 from "../manga/يوسف الامين/IKYCD/p06.jpg"
+import Manga_6 from "../manga/يوسف الامين/IKYCD/p07.jpg"
+import Manga_7 from "../manga/يوسف الامين/IKYCD/p08.jpg"
+import Manga_8 from "../manga/يوسف الامين/IKYCD/p09.jpg"
+import Manga_9 from "../manga/يوسف الامين/IKYCD/p10.jpg"
+import Manga_10 from "../manga/يوسف الامين/IKYCD/p11.jpg"
+import Manga_11 from "../manga/يوسف الامين/IKYCD/p12.jpg"
+
+
+
+
+
+
+import manga_6 from "../manga/يوسف الامين/Atiya/p1cover.jpg"
+
+
+
+
+
+
+
+import Atiya1 from "../manga/يوسف الامين/Atiya/p2.jpg"
+import Atiya2 from "../manga/يوسف الامين/Atiya/p3.jpg"
+import Atiya3 from "../manga/يوسف الامين/Atiya/p4.jpg"
+import Atiya4 from "../manga/يوسف الامين/Atiya/p5.jpg"
+import Atiya5 from "../manga/يوسف الامين/Atiya/p6.jpg"
+import Atiya6 from "../manga/يوسف الامين/Atiya/p7.jpg"
+import Atiya7 from "../manga/يوسف الامين/Atiya/p8.jpg"
+import Atiya8 from "../manga/يوسف الامين/Atiya/p9.jpg"
+import Atiya9 from "../manga/يوسف الامين/Atiya/p10.jpg"
+import Atiya10 from "../manga/يوسف الامين/Atiya/p11.jpg"
+import Atiya11 from "../manga/يوسف الامين/Atiya/p12.jpg"
+import Atiya12 from "../manga/يوسف الامين/Atiya/p13.jpg"
+import Atiya13 from "../manga/يوسف الامين/Atiya/p14.jpg"
+import Atiya14 from "../manga/يوسف الامين/Atiya/p15.jpg"
+import Atiya15 from "../manga/يوسف الامين/Atiya/p16.jpg"
+import Atiya16 from "../manga/يوسف الامين/Atiya/p17.jpg"
+import Atiya17 from "../manga/يوسف الامين/Atiya/p18.jpg"
+import Atiya18 from "../manga/يوسف الامين/Atiya/p19.jpg"
+import Atiya19 from "../manga/يوسف الامين/Atiya/p20.jpg"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import manga_7 from "../assets/l 5.png"
 import manga_8 from "../assets/l 6.png"
 import manga_9 from "../assets/l 7.png"
@@ -283,86 +370,93 @@ const  webtoonsImages: Manga[] = [
     },
     {
         id:4,
-        title: 'Neo Typical',
-        author: 'MANDY Z',
+        title: 'ياريان',
+        author: 'ملاذ عبد الله',
         image: `${manga_4}`,
         chapters: [
             {
                 chapterNumber: 1,
-                title: 'Digital Divide',
+                title: 'الاول',
                 pages: [
-                    "https://example.com/manga4_ch1_pg1.jpg",
-                    "https://example.com/manga4_ch1_pg2.jpg",
-                    "https://example.com/manga4_ch1_pg3.jpg",
+                    `${Mangad1}`,
+                    `${Mangad2}`,
+                    `${Mangad3}`,
+                    `${Mangad4}`,
+                    `${Mangad5}`,
+                    `${Mangad6}`,
+                    `${Mangad7}`,
+                    `${Mangad8}`,
+                    `${Mangad9}`,
+                    `${Mangad10}`,
+                    `${Mangad11}`,
                 ],
             },
-            {
-                chapterNumber: 2,
-                title: 'Cyber Dreams',
-                pages: [
-                    "https://example.com/manga4_ch2_pg1.jpg",
-                    "https://example.com/manga4_ch2_pg2.jpg",
-                    "https://example.com/manga4_ch2_pg3.jpg",
-                ],
-            },
+
         ],
-        description: 'A cyberpunk journey exploring identity in a digitized world.',
+        description: 'حاكية بنت تستيقز لتجد نفسها في جسد شخص اخر',
         genre: ['Sci-Fi', 'Thriller'],
     },
     {
         id:5,
-        title: 'We Can Be',
-        author: 'MANDY Z',
+        title: 'I KNOW YOU CAN DRAW',
+        author: 'Yakam Dudes',
         image: `${manga_5}`,
         chapters: [
             {
                 chapterNumber: 1,
-                title: 'United in Purpose',
+                title: 'الاول',
                 pages: [
-                    "https://example.com/manga5_ch1_pg1.jpg",
-                    "https://example.com/manga5_ch1_pg2.jpg",
-                    "https://example.com/manga5_ch1_pg3.jpg",
-                ],
-            },
-            {
-                chapterNumber: 2,
-                title: 'Breaking Chains',
-                pages: [
-                    "https://example.com/manga5_ch2_pg1.jpg",
-                    "https://example.com/manga5_ch2_pg2.jpg",
-                    "https://example.com/manga5_ch2_pg3.jpg",
+                    `${Manga_1}`,
+                    `${Manga_2}`,
+                    `${Manga_3}`,
+                    `${Manga_4}`,
+                    `${Manga_5}`,
+                    `${Manga_6}`,
+                    `${Manga_7}`,
+                    `${Manga_8}`,
+                    `${Manga_9}`,
+                    `${Manga_10}`,
+                    `${Manga_11}`,
                 ],
             },
         ],
-        description: 'A beautiful exploration of friendship and unexpected connections.',
+        description: 'قصة معانا رسام',
         genre: ['Drama', 'Romance'],
     },
     {
         id:6,
-        title: 'We Grow A...',
-        author: 'Flamboyant-King',
+        title: 'عطية',
+        author: 'Yakam Dudes',
         image: `${manga_6}`,
         chapters: [
             {
                 chapterNumber: 1,
-                title: 'Seeds of Change',
+                title: 'الاول',
                 pages: [
-                    "https://example.com/manga6_ch1_pg1.jpg",
-                    "https://example.com/manga6_ch1_pg2.jpg",
-                    "https://example.com/manga6_ch1_pg3.jpg",
+                    `${Atiya1}`,
+                    `${Atiya2}`,
+                    `${Atiya3}`,
+                    `${Atiya4}`,
+                    `${Atiya5}`,
+                    `${Atiya6}`,
+                    `${Atiya7}`,
+                    `${Atiya8}`,
+                    `${Atiya9}`,
+                    `${Atiya10}`,
+                    `${Atiya11}`,
+                    `${Atiya12}`,
+                    `${Atiya13}`,
+                    `${Atiya14}`,
+                    `${Atiya15}`,
+                    `${Atiya16}`,
+                    `${Atiya17}`,
+                    `${Atiya18}`,
+                    `${Atiya19}`,
                 ],
             },
-            {
-                chapterNumber: 2,
-                title: 'The Bloom',
-                pages: [
-                    "https://example.com/manga6_ch2_pg1.jpg",
-                    "https://example.com/manga6_ch2_pg2.jpg",
-                    "https://example.com/manga6_ch2_pg3.jpg",
-                ],
-            },
+
         ],
-        description: 'An inspiring tale of growth and overcoming adversity.',
+        description: 'شبه الفلس',
         genre: ['Slice of Life', 'Inspirational'],
     },
     {
