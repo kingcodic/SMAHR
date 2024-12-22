@@ -30,7 +30,7 @@ export default function Main() {
       <Hero />
       <Cards />
       <Card />
-      <div className="bg-gray-100 py-16">
+      <div className="bg-gray-100 py-16 overflow-x-hidden">
         <div className="container mx-auto px-4">
           <h2 className="text-7xl font-bold mb-12 text-center">قد يعجبك</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -58,7 +58,7 @@ export default function Main() {
           <div className="flex flex-wrap lg:flex-nowrap justify-between items-center">
             {/* Left Side: Text and Button */}
             <div className="w-full lg:w-1/3 mb-8 lg:mb-0 order-1 text-right">
-              <h2 className="text-5xl font-bold mb-4">البحث عن المزيد</h2>
+              <h2 className="text-5xl font-bold mb-4 pt-6">البحث عن المزيد</h2>
               <p className="text-lg mb-6">
                 البحث عن المزيد من القصص المصورة التي تناسب زوقك من رسامينا
               </p>
